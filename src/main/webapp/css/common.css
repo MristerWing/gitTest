@@ -1,0 +1,29 @@
+@charset "UTF-8";
+html {
+	background-color: #fff7f7;
+	font-family: 빙그레 메로나체;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 0px;
+	color: #4d4d4d;
+	font-size: 12px;
+}
+
+ul {
+	background-color: #fff;
+}
+
+a:hover {
+	color: #0066ff;
+}
+
+button {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	background-color: #fff;
+}

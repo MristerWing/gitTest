@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.form {
+	border: solid 0.01em #e6b3ff;
+	position: relative;
+	width: 410px;
+	height: 155px;
+	margin: 5px;
+	margin-bottom: 20px;
+	background-color: #e6e6ff;
+}
+
+.update {
+	position: static;
+}
+
+.index {
+	border: 1px solid #d3d3d3;
+	text-align: left;
+	padding-left: 5px;
+	background-color: #fff;
+	width: 385px;
+	height: 86px;
+	margin: 2px 0;
+}
+
+.message {
+	font-size: 14px;
+}
+
+.title {
+	/* border: solid 1px blue; */
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin: 2px 0px;
+}
+
+.content {
+	/* border: solid 1px yellow; */
+	width: 400px;
+	height: 86px;
+	margin: 2px 0px;
+	text-align: left;
+}
+
+label {
+	/* display: block; */
+	margin-left: 10px;
+}
