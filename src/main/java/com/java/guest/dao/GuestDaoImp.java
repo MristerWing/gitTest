@@ -43,7 +43,7 @@ public class GuestDaoImp implements GuestDao {
 		Map<String, Integer> rowMap = new HashMap<String, Integer>();
 		rowMap.put("startRow", startRow);
 		rowMap.put("endRow", endRow);
-
+		System.out.println("으아아아");
 		return sqlSessionTemplate.selectList("guestListSelect", rowMap);
 	}
 
