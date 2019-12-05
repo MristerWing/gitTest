@@ -44,6 +44,7 @@ public class GuestServiceImp implements GuestService {
 	@Override
 	public void guestWrite(ModelAndView modelAndView) {
 		System.out.println("branch test");
+		System.out.println("은솔");
 		Map<String, Object> modelMap = modelAndView.getModelMap();
 		HttpServletRequest request = (HttpServletRequest) modelMap
 				.get("request");
@@ -82,14 +83,14 @@ public class GuestServiceImp implements GuestService {
 	@Override
 	public void guestWriteOk(ModelAndView modelAndView) {
 		Map<String, Object> modelMap = modelAndView.getModelMap();
-
+		
 		guestDto = (GuestDto) modelMap.get("guestDto");
 		guestDto.setWriteDate(new Date());
 		guestDto.setMessage(guestDto.getMessage().replace("\r\n", "<br>"));
 
 		LogAspect.logger.info(LogAspect.logMsg + guestDto.toString());
-
 		int check = guestDao.guestWrite(guestDto);
+		LogAspect.logger.info(LogAspect.logMsg+"check"+check);
 
 		modelAndView.addObject("check", check);
 		modelAndView.setViewName("guest/writeOk");
