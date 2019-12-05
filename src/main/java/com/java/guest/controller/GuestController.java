@@ -20,6 +20,7 @@ public class GuestController extends MultiActionController {
 	private GuestService guestService;
 
 	public GuestController() {
+		System.out.println("성수 브런치");
 	}
 
 	public GuestController(GuestService guestService) {
