@@ -43,6 +43,7 @@ public class GuestServiceImp implements GuestService {
 	 */
 	@Override
 	public void guestWrite(ModelAndView modelAndView) {
+		System.out.println("branch test");
 		Map<String, Object> modelMap = modelAndView.getModelMap();
 		HttpServletRequest request = (HttpServletRequest) modelMap
 				.get("request");
