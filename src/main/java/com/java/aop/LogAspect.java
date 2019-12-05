@@ -14,7 +14,7 @@ public class LogAspect {
 
 		System.out.println(
 				"============================START==============================");
-
+		System.out.println("HI");
 		try {
 			String loggingClassName = joinPoint.getTarget().getClass()
 					.getName();
