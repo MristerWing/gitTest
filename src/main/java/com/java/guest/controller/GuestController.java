@@ -62,7 +62,7 @@ public class GuestController extends MultiActionController {
 		modelAndView.addObject("guestDto", guestDto);
 		guestService.guestWriteOk(modelAndView);
 		System.out.println("gwo OK");
-		System.out.println("dasdsadsa");
+		System.out.println("k`1");
 		return modelAndView;
 	}
 
